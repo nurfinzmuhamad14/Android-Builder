@@ -9,19 +9,28 @@
     },
     "toolchains": [
       {
-        "name": "proton-clang",
-        "repo": "https://github.com/kdrag0n/proton-clang",
+        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
         "branch": "master",
-        "binaryEnv": ["./bin"]
+        "name": "gas",
+        "binaryEnv": []
+      },
+      {
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "11",
+        "name": "clang",
+        "binaryEnv": [
+          "bin"
+        ]
       }
     ],
     "enableCcache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "clang",
+      "CC": "clang/bin/clang",
       "externalCommands": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-"
       }
     },
