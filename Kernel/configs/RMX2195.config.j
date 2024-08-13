@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "",
-      "repo": "https://github.com/Separatee/AllinOneKernel",
-      "branch": "main",
-      "device": "cepheus",
-      "defconfig": "cepheus_defconfig"
+      "name": "Lineage",
+      "repo": "https://github.com/nurfinzmuhamad14/android_kernel_realme_RMX2195",
+      "branch": "LineageOS",
+      "device": "RMX2195",
+      "defconfig": "RMX2195_defconfig"
     },
     "toolchains": [
       {
