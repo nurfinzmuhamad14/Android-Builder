@@ -26,9 +26,9 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true
-      "custom": {
+   "use": true,
+   "release": true,
+   "custom": {
      "repo": "https://github.com/nurfinzmuhamad14/AnyKernel3",
      "branch": "RMX2195"
       }
