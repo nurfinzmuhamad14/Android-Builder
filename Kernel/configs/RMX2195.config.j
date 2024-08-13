@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi9KernelPoweredBySeparate",
+      "name": "",
       "repo": "https://github.com/Separatee/AllinOneKernel",
       "branch": "main",
       "device": "cepheus",
@@ -26,7 +26,7 @@
       }
     },
     "AnyKernel3": {
-      "use": false,
+      "use": true,
       "release": true
     },
     "enableKernelSU": false,
